@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "pagingtabview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/PagingTabView",
+      "state" : {
+        "revision" : "1f1dc3a5e8beee22b39fde2cebc841e42f89cd17",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
