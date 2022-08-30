@@ -20,7 +20,7 @@ public struct SegmentedControl {
 }
 
 extension SegmentedControl: View {
-    var body: some View {
+    public var body: some View {
         Picker(title, selection: $selectedSegmentIndex) {
             ForEach(0..<items.count, id: \.self) {
                 Text(items[$0]).tag($0)
