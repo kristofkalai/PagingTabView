@@ -606,7 +606,7 @@
 			repositoryURL = "https://github.com/stateman92/PagingTabView";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.4;
+				version = 0.0.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stateman92/PagingTabView",
       "state" : {
-        "revision" : "cef68b03a90ee2980a54e0ee6336cdeb26ca4c78",
-        "version" : "0.0.4"
+        "revision" : "cea66c27fb93f8a225fe323a1ac0c35c67eb0144",
+        "version" : "0.0.5"
       }
     }
   ],
