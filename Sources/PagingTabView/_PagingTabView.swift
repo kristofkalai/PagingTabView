@@ -10,6 +10,7 @@ import SwiftUI
 struct _PagingTabView<Content: View> {
     @Binding var offset: CGFloat
     @Binding var index: Int
+    let bounces: Bool
     let viewSize: CGSize
     let horizontal: Bool
     @ViewBuilder var content: () -> Content
@@ -25,6 +26,7 @@ extension _PagingTabView: UIViewRepresentable {
         scrollView.isPagingEnabled = true
         scrollView.showsVerticalScrollIndicator = false
         scrollView.showsHorizontalScrollIndicator = false
+        scrollView.bounces = bounces
         scrollView.delegate = context.coordinator
 
         let hostView = UIHostingController(rootView: content())
