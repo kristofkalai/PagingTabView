@@ -1,15 +1,21 @@
 # PagingTabView
 It seems that Apple's TabView took some steroids! 💊
 
-### How to use
+## Setup
 
-You can use the `PagingTabView` like so (with the help of a `PagingTabViewViewModel`):
+Add the following to `Package.swift`:
+
+```swift
+.package(url: "https://github.com/stateman92/PagingTabView", exact: .init(0, 0, 5))
+```
+
+[Or add the package in Xcode.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
+
+## Usage
 
 ```swift
 @ObservedObject private var viewModel: PagingTabViewViewModel
-
-...
-    
+// ...
 VStack {
     SegmentedControl(items: ["Gray", "Green", "Red", "Blue", "Brown"], selectedSegmentIndex: $viewModel.segmentIndex)
     PagingTabView(offset: $viewModel.offset, index: $viewModel.index, viewSize: viewSize, horizontal: horizontal) {
@@ -25,6 +31,6 @@ VStack {
 
 For details see the Example app.
 
-### Example
+## Example
 
 <p style="text-align:center;"><img src="https://github.com/stateman92/PagingTabView/blob/main/Resources/screenrecording.gif?raw=true" width="50%" alt="Example"></p>
