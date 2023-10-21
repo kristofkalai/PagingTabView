@@ -1,6 +1,6 @@
 //
 //  PagingTabViewViewModel.swift
-//  
+//
 //
 //  Created by Kristof Kalai on 2022. 08. 30..
 //
